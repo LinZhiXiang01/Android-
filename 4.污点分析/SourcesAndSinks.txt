@@ -1,0 +1,17 @@
+
+<android.os.Bundle: long getLong(java.lang.String)> -> _SOURCE_
+<android.os.Bundle: long getLong(java.lang.String,long)> -> _SOURCE_
+<android.os.Bundle: long[] getLongArray(java.lang.String)> -> _SOURCE_
+
+
+<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)> -> _SOURCE_
+<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,android.os.CancellationSignal)> -> _SOURCE_
+<android.database.Cursor: java.lang.String getString(int)> -> _SOURCE_
+<android.database.Cursor: long getLong(int)> -> _SOURCE_
+
+<android.app.Activity: String[] getContacts()> -> _SOURCE_
+<activity.MainActivity: void sendSMS(java.lang.String[],java.lang.String)> -> _SOURCE_
+
+
+<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)> android.permission.SEND_SMS -> _SINK_ 
+

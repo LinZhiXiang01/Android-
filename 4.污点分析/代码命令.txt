@@ -1,0 +1,4 @@
+//控制台输入以下命令，注意修改路径，以及安装AndroidSDK-platforms 平台 和 soot-infoflow-cmd-2.13.0-jar-with-dependencies.jar 包
+
+
+java -jar C:\Users\18165\Downloads\soot-infoflow-cmd-2.13.0-jar-with-dependencies.jar -a C:\Users\18165\Desktop\APK\app-release-yn-2.apk  -p D:\AndroidSDK\platforms -s C:\Users\18165\Desktop\SourcesAndSinks.txt -o sootOutput
